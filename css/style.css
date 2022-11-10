@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  background: #11d6ac;
+  min-height: 15vh;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+}
+
+#menu {
+  margin: 10px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: rgb(10, 0, 32);
+  text-transform: uppercase;
+  padding: 0 50px;
+}
+
+#menu a:hover {
+  color: cyan;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  background: #02796f;
+  padding: 10px 0;
+  gap: 10px;
+  min-height: 70vh;
+}
+
+#conteudo-um {
+  display: grid;
+  width: 200px;
+  grid-template-columns: auto auto;
+}
+
+#conteudo-dois img {
+  width: 200px;
+  grid-template-columns: auto auto;
+}
+
+footer {
+  display: grid;
+  place-items: center;
+  min-height: 10vh;
+}
